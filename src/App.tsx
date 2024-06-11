@@ -1,10 +1,12 @@
 import './App.css'
+import { Carga } from './components/Carga'
 
 function App() {
   
   return (
     <>
-    <h1>Hola Mundo</h1>
+    <img src="fondo.svg" alt="fondo de pantalla" />
+    <Carga/>
    </>
   )
 }

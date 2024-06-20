@@ -6,7 +6,7 @@ const itemsB = [3, 1, 4, 2];
 const itemsC = [4, 3, 2, 1];
 const itemsD = [2, 4, 1, 3];
 
-const colors = ["#DAF7A6", "#FFC300", "#CD5C5C", "#900C3F"];
+const colors = ["#003366", "#69687F", "#FCA34D", "#4682B4"];
 
 export function Carga() {
     const [items, setItems] = useCycle(itemsA, itemsB, itemsC, itemsD);
